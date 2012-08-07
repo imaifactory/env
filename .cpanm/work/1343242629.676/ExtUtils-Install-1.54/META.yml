@@ -1,0 +1,22 @@
+--- #YAML:1.0
+name:                ExtUtils-Install
+version:             1.54
+abstract:            install files from here to there
+license:             ~
+author:              
+    - demerphq <yves@cpan.org>
+generated_by:        ExtUtils::MakeMaker version 6.42
+distribution_type:   module
+requires:     
+    Carp:                          0
+    Cwd:                           0
+    ExtUtils::MakeMaker:           0
+    File::Basename:                0
+    File::Compare:                 0
+    File::Copy:                    0
+    File::Find:                    0
+    File::Path:                    0
+    File::Spec:                    0
+meta-spec:
+    url:     http://module-build.sourceforge.net/META-spec-v1.3.html
+    version: 1.3

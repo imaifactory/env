@@ -1,0 +1,71 @@
+cpanm (App::cpanminus) 1.5017 on perl 5.010001 built for x86_64-linux-thread-multi
+Work directory is /home/yuta/.cpanm/work/1343242245.597
+You have LWP 6.02
+You have /bin/tar: tar (GNU tar) 1.23
+Copyright (C) 2010 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Written by John Gilmore and Jay Fenlason.
+You have /usr/bin/unzip
+Searching ExtUtils::Install on cpanmetadb ...
+!
+! Can't write to /usr/local/share/perl5 and /usr/local/bin: Installing modules to /home/yuta/perl5
+! To turn off this warning, you have to do one of the following:
+!   - run me as a root or with --sudo option (to install to /usr/local/share/perl5 and /usr/local/bin)
+!   - Configure local::lib your existing local::lib in this shell to set PERL_MM_OPT etc.
+!   - Install local::lib by running the following commands
+!
+!         cpanm --local-lib=~/perl5 local::lib && eval $(perl -I ~/perl5/lib/perl5/ -Mlocal::lib)
+!
+Checking if you have ExtUtils::MakeMaker 6.31 ... No
+Checking if you have ExtUtils::Install 1.46 ... No
+==> Found dependencies: ExtUtils::MakeMaker, ExtUtils::Install
+Searching ExtUtils::MakeMaker on cpanmetadb ...
+--> Working on ExtUtils::MakeMaker
+Fetching http://www.cpan.org/authors/id/M/MS/MSCHWERN/ExtUtils-MakeMaker-6.62.tar.gz
+-> OK
+Unpacking ExtUtils-MakeMaker-6.62.tar.gz
+Entering ExtUtils-MakeMaker-6.62
+Checking configure dependencies from META.yml
+Configuring ExtUtils-MakeMaker-6.62
+Running Makefile.PL
+Using included version of Parse::CPAN::Meta (1.4401) because it is not already installed.
+Using included version of JSON::PP (2.27104) because it is not already installed.
+Using included version of ExtUtils::Manifest (1.58) because it is not already installed.
+Using included version of version (0.88) as it is newer than the installed version (0.77).
+Using included version of CPAN::Meta (2.112150) because it is not already installed.
+Using included version of CPAN::Meta::YAML (0.003) because it is not already installed.
+Using included version of Version::Requirements (0.101020) because it is not already installed.
+Using included version of JSON::PP::Compat5006 (1.09) because it is not already installed.
+Using included version of File::Copy::Recursive (0.38) because it is not already installed.
+Using included version of ExtUtils::Install (1.52) because it is not already installed.
+Checking if your kit is complete...
+Looks good
+Writing Makefile for ExtUtils::MakeMaker
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Data::Dumper 0 ... Yes (2.124)
+Checking if you have Pod::Man 0 ... Yes (2.22)
+Checking if you have File::Spec 0.8 ... Yes (3.30)
+Checking if you have File::Basename 0 ... Yes (2.77)
+Checking if you have DirHandle 0 ... Yes (1.03)
+-> FAIL Can't configure the distribution. You probably need to have 'make'. See /home/yuta/.cpanm/build.log for details.
+Already tried ExtUtils::Install. Skipping.
+--> Working on ExtUtils::Install
+Fetching http://www.cpan.org/authors/id/Y/YV/YVES/ExtUtils-Install-1.54.tar.gz
+-> OK
+Unpacking ExtUtils-Install-1.54.tar.gz
+Entering ExtUtils-Install-1.54
+Checking configure dependencies from META.yml
+Configuring ExtUtils-Install-1.54
+Running Makefile.PL
+Can't locate ExtUtils/MakeMaker.pm in @INC (@INC contains: lib ~/perl5/lib/perl5/x86_64-linux-thread-multi ~/perl5/lib/perl5 /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at Makefile.PL line 24.
+BEGIN failed--compilation aborted at Makefile.PL line 24.
+Running Build.PL
+Can't locate Module/Build.pm in @INC (@INC contains: ~/perl5/lib/perl5/x86_64-linux-thread-multi ~/perl5/lib/perl5 /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at Build.PL line 2.
+BEGIN failed--compilation aborted at Build.PL line 2.
+-> N/A
+-> FAIL Configure failed for ExtUtils-Install-1.54. See /home/yuta/.cpanm/build.log for details.

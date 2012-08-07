@@ -1,0 +1,109 @@
+cpanm (App::cpanminus) 1.5017 on perl 5.010001 built for x86_64-linux-thread-multi
+Work directory is /home/yuta/.cpanm/work/1343623020.1523
+You have make /usr/bin/make
+You have LWP 6.02
+You have /bin/tar: tar (GNU tar) 1.23
+Copyright (C) 2010 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Written by John Gilmore and Jay Fenlason.
+You have /usr/bin/unzip
+Searching Cache::Memcached::Fast on cpanmetadb ...
+!
+! Can't write to /usr/local/share/perl5 and /usr/local/bin: Installing modules to /home/yuta/perl5
+! To turn off this warning, you have to do one of the following:
+!   - run me as a root or with --sudo option (to install to /usr/local/share/perl5 and /usr/local/bin)
+!   - Configure local::lib your existing local::lib in this shell to set PERL_MM_OPT etc.
+!   - Install local::lib by running the following commands
+!
+!         cpanm --local-lib=~/perl5 local::lib && eval $(perl -I ~/perl5/lib/perl5/ -Mlocal::lib)
+!
+Checking if you have ExtUtils::MakeMaker 6.31 ... Yes (6.62)
+Checking if you have ExtUtils::Install 1.46 ... Yes (1.54)
+--> Working on Cache::Memcached::Fast
+Fetching http://www.cpan.org/authors/id/K/KR/KROKI/Cache-Memcached-Fast-0.19.tar.gz
+-> OK
+Unpacking Cache-Memcached-Fast-0.19.tar.gz
+Entering Cache-Memcached-Fast-0.19
+Checking configure dependencies from META.yml
+Configuring Cache-Memcached-Fast-0.19
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Writing Makefile for Cache::Memcached::Fast::libclient
+Writing Makefile for Cache::Memcached::Fast
+-> OK
+Finding PREREQ from Makefile ...
+Checking if you have Test::More 0 ... Yes (0.98)
+Building and testing Cache-Memcached-Fast-0.19
+cp lib/Cache/Memcached/Fast.pm blib/lib/Cache/Memcached/Fast.pm
+cd src && make LIBPERL_A="libperl.a" LINKTYPE="dynamic" OPTIMIZE="-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m64 -mtune=generic" PREFIX="/home/yuta/perl5" INSTALL_BASE="/home/yuta/perl5"
+make[1]: Entering directory `/home/yuta/.cpanm/work/1343623020.1523/Cache-Memcached-Fast-0.19/src'
+/usr/bin/perl genparser.pl reply.kw parse_keyword.c parse_keyword.h
+gcc -c  -I. -D_REENTRANT -D_GNU_SOURCE -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m64 -mtune=generic   -DVERSION=\"0.19\" -DXS_VERSION=\"0.19\" -fPIC "-I/usr/lib64/perl5/CORE"  -DHAVE_POLL_H parse_keyword.c
+/usr/bin/perl gencrc32.pl compute_crc32.c compute_crc32.h
+gcc -c  -I. -D_REENTRANT -D_GNU_SOURCE -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m64 -mtune=generic   -DVERSION=\"0.19\" -DXS_VERSION=\"0.19\" -fPIC "-I/usr/lib64/perl5/CORE"  -DHAVE_POLL_H compute_crc32.c
+gcc -c  -I. -D_REENTRANT -D_GNU_SOURCE -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m64 -mtune=generic   -DVERSION=\"0.19\" -DXS_VERSION=\"0.19\" -fPIC "-I/usr/lib64/perl5/CORE"  -DHAVE_POLL_H array.c
+gcc -c  -I. -D_REENTRANT -D_GNU_SOURCE -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m64 -mtune=generic   -DVERSION=\"0.19\" -DXS_VERSION=\"0.19\" -fPIC "-I/usr/lib64/perl5/CORE"  -DHAVE_POLL_H client.c
+gcc -c  -I. -D_REENTRANT -D_GNU_SOURCE -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m64 -mtune=generic   -DVERSION=\"0.19\" -DXS_VERSION=\"0.19\" -fPIC "-I/usr/lib64/perl5/CORE"  -DHAVE_POLL_H connect.c
+gcc -c  -I. -D_REENTRANT -D_GNU_SOURCE -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m64 -mtune=generic   -DVERSION=\"0.19\" -DXS_VERSION=\"0.19\" -fPIC "-I/usr/lib64/perl5/CORE"  -DHAVE_POLL_H dispatch_key.c
+gcc -c  -I. -D_REENTRANT -D_GNU_SOURCE -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m64 -mtune=generic   -DVERSION=\"0.19\" -DXS_VERSION=\"0.19\" -fPIC "-I/usr/lib64/perl5/CORE"  -DHAVE_POLL_H socket_posix.c
+ar cr libclient.a parse_keyword.o compute_crc32.o array.o client.o connect.o dispatch_key.o socket_posix.o
+: libclient.a
+make[1]: Leaving directory `/home/yuta/.cpanm/work/1343623020.1523/Cache-Memcached-Fast-0.19/src'
+make[1]: Entering directory `/home/yuta/.cpanm/work/1343623020.1523/Cache-Memcached-Fast-0.19/src'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/home/yuta/.cpanm/work/1343623020.1523/Cache-Memcached-Fast-0.19/src'
+/usr/bin/perl /usr/share/perl5/ExtUtils/xsubpp  -typemap /usr/share/perl5/ExtUtils/typemap -typemap typemap  Fast.xs > Fast.xsc && mv Fast.xsc Fast.c
+gcc -c   -D_REENTRANT -D_GNU_SOURCE -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m64 -mtune=generic   -DVERSION=\"0.19\" -DXS_VERSION=\"0.19\" -fPIC "-I/usr/lib64/perl5/CORE"   Fast.c
+Running Mkbootstrap for Cache::Memcached::Fast ()
+chmod 644 Fast.bs
+rm -f blib/arch/auto/Cache/Memcached/Fast/Fast.so
+gcc  -shared -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m64 -mtune=generic Fast.o  -o blib/arch/auto/Cache/Memcached/Fast/Fast.so src/libclient.a	\
+	     	\
+	  
+chmod 755 blib/arch/auto/Cache/Memcached/Fast/Fast.so
+cp Fast.bs blib/arch/auto/Cache/Memcached/Fast/Fast.bs
+chmod 644 blib/arch/auto/Cache/Memcached/Fast/Fast.bs
+Manifying blib/man3/Cache::Memcached::Fast.3pm
+make[1]: Entering directory `/home/yuta/.cpanm/work/1343623020.1523/Cache-Memcached-Fast-0.19/src'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/home/yuta/.cpanm/work/1343623020.1523/Cache-Memcached-Fast-0.19/src'
+PERL_DL_NONLAZY=1 /usr/bin/perl "-MExtUtils::Command::MM" "-e" "test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+# Testing Cache::Memcached::Fast 0.19, Perl 5.010001, /usr/bin/perl
+t/00-load.t ....... ok
+t/01-connect.t .... skipped: No server is running at localhost:11211, 127.0.0.1:11211
+t/02-isa.t ........ skipped: Not connected
+t/big_value.t ..... skipped: Not connected
+t/commands.t ...... skipped: Not connected
+t/key_ref.t ....... skipped: Not connected
+t/magic.t ......... skipped: Not connected
+t/namespace.t ..... skipped: Not connected
+t/noreply.t ....... skipped: Not connected
+t/nowait.t ........ skipped: Not connected
+t/pod-coverage.t .. skipped: Test::Pod::Coverage 1.08 required for testing POD coverage
+t/pod.t ........... skipped: Test::Pod 1.22 required for testing POD
+t/serialize.t ..... skipped: Not connected
+t/threads.t ....... skipped: Not connected
+t/utf8.t .......... skipped: Not connected
+All tests successful.
+Files=15, Tests=1,  2 wallclock secs ( 0.05 usr  0.07 sys +  1.10 cusr  0.26 csys =  1.48 CPU)
+Result: PASS
+make[1]: Entering directory `/home/yuta/.cpanm/work/1343623020.1523/Cache-Memcached-Fast-0.19/src'
+No tests defined for Cache::Memcached::Fast::libclient extension.
+make[1]: Leaving directory `/home/yuta/.cpanm/work/1343623020.1523/Cache-Memcached-Fast-0.19/src'
+make[1]: Entering directory `/home/yuta/.cpanm/work/1343623020.1523/Cache-Memcached-Fast-0.19/src'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/home/yuta/.cpanm/work/1343623020.1523/Cache-Memcached-Fast-0.19/src'
+Files found in blib/arch: installing files in blib/lib into architecture dependent library tree
+Installing /home/yuta/perl5/lib/perl5/x86_64-linux-thread-multi/auto/Cache/Memcached/Fast/Fast.so
+Installing /home/yuta/perl5/lib/perl5/x86_64-linux-thread-multi/auto/Cache/Memcached/Fast/Fast.bs
+Installing /home/yuta/perl5/lib/perl5/x86_64-linux-thread-multi/Cache/Memcached/Fast.pm
+Installing /home/yuta/perl5/man/man3/Cache::Memcached::Fast.3pm
+Appending installation info to /home/yuta/perl5/lib/perl5/x86_64-linux-thread-multi/perllocal.pod
+-> OK
+Successfully installed Cache-Memcached-Fast-0.19
+Installing ~/perl5/lib/perl5/x86_64-linux-thread-multi/.meta/Cache-Memcached-Fast-0.19/install.json
+1 distribution installed

@@ -1,0 +1,62 @@
+cpanm (App::cpanminus) 1.5017 on perl 5.010001 built for x86_64-linux-thread-multi
+Work directory is /home/yuta/.cpanm/work/1343244363.6738
+You have make /usr/bin/make
+You have LWP 6.02
+You have /bin/tar: tar (GNU tar) 1.23
+Copyright (C) 2010 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Written by John Gilmore and Jay Fenlason.
+You have /usr/bin/unzip
+Searching App::cpanminus on cpanmetadb ...
+!
+! Can't write to /usr/local/share/perl5 and /usr/local/bin: Installing modules to /home/yuta/perl5
+! To turn off this warning, you have to do one of the following:
+!   - run me as a root or with --sudo option (to install to /usr/local/share/perl5 and /usr/local/bin)
+!   - Configure local::lib your existing local::lib in this shell to set PERL_MM_OPT etc.
+!   - Install local::lib by running the following commands
+!
+!         cpanm --local-lib=~/perl5 local::lib && eval $(perl -I ~/perl5/lib/perl5/ -Mlocal::lib)
+!
+Checking if you have ExtUtils::MakeMaker 6.31 ... Yes (6.62)
+Checking if you have ExtUtils::Install 1.46 ... Yes (1.54)
+--> Working on App::cpanminus
+Fetching http://www.cpan.org/authors/id/M/MI/MIYAGAWA/App-cpanminus-1.5017.tar.gz
+-> OK
+Unpacking App-cpanminus-1.5017.tar.gz
+Entering App-cpanminus-1.5017
+Checking configure dependencies from META.yml
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.62)
+Configuring App-cpanminus-1.5017
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Writing Makefile for App::cpanminus
+-> OK
+Finding PREREQ from Makefile ...
+Checking if you have ExtUtils::MakeMaker 6.31 ... Yes (6.62)
+Checking if you have Module::Build 0.36 ... Yes (0.4001)
+Checking if you have ExtUtils::Install 1.46 ... Yes (1.54)
+Building and testing App-cpanminus-1.5017
+cp lib/App/cpanminus.pm blib/lib/App/cpanminus.pm
+cp bin/cpanm blib/script/cpanm
+/usr/bin/perl -MExtUtils::MY -e 'MY->fixin(shift)' -- blib/script/cpanm
+Manifying blib/man1/cpanm.1
+Manifying blib/man3/App::cpanminus.3pm
+PERL_DL_NONLAZY=1 /usr/bin/perl "-MExtUtils::Command::MM" "-e" "test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+# App::cpanminus/1.5017
+t/happy_cpantesters.t .. ok
+All tests successful.
+Files=1, Tests=1,  0 wallclock secs ( 0.02 usr  0.01 sys +  0.02 cusr  0.00 csys =  0.05 CPU)
+Result: PASS
+Installing /home/yuta/perl5/lib/perl5/App/cpanminus.pm
+Installing /home/yuta/perl5/man/man1/cpanm.1
+Installing /home/yuta/perl5/man/man3/App::cpanminus.3pm
+Installing /home/yuta/perl5/bin/cpanm
+Appending installation info to /home/yuta/perl5/lib/perl5/x86_64-linux-thread-multi/perllocal.pod
+-> OK
+Successfully installed App-cpanminus-1.5017
+Installing ~/perl5/lib/perl5/x86_64-linux-thread-multi/.meta/App-cpanminus-1.5017/install.json
+1 distribution installed

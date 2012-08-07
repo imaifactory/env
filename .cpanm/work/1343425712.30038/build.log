@@ -1,0 +1,21 @@
+cpanm (App::cpanminus) 1.5017 on perl 5.010001 built for x86_64-linux-thread-multi
+Work directory is /home/yuta/.cpanm/work/1343425712.30038
+You have make /usr/bin/make
+You have LWP 6.02
+You have /bin/tar: tar (GNU tar) 1.23
+Copyright (C) 2010 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Written by John Gilmore and Jay Fenlason.
+You have /usr/bin/unzip
+Searching IPC::Sharable on cpanmetadb ...
+-> FAIL Finding IPC::Sharable on cpanmetadb failed.
+Searching IPC::Sharable on search.cpan.org ...
+-> FAIL Finding IPC::Sharable on search.cpan.org failed.
+Searching IPC::Sharable on mirror http://www.cpan.org ...
+Downloading index file http://www.cpan.org/modules/02packages.details.txt.gz ...
+Uncompressing index file...
+-> FAIL Finding IPC::Sharable () on mirror http://www.cpan.org failed.
+-> FAIL Couldn't find module or a distribution IPC::Sharable ()
