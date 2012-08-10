@@ -6,4 +6,4 @@ if [ -f /etc/bashrc ]; then
 fi
 
 # User specific aliases and functions
-PATH=$PATH:~/aws/emrclient:~/aws/perl-aws
+PATH=$PATH:~/aws/emrclient:~/aws/bin
