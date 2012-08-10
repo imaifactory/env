@@ -6,4 +6,4 @@ if [ -f /etc/bashrc ]; then
 fi
 
 # User specific aliases and functions
-PATH=$PATH:~/aws/emrclient:~/boto/bin
+PATH=$PATH:~/aws/emrclient:~/aws/ec2-s3-tools
