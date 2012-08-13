@@ -152,3 +152,47 @@ C<EXE_FILES: >
 
 =back
 
+=head2 Fri Aug 10 05:22:03 2012: C<Module> L<common::sense|common::sense>
+
+=over 4
+
+=item *
+
+C<installed into: /home/yuta/perl5/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 3.6>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Aug 10 05:29:39 2012: C<Module> L<JSON::XS|JSON::XS>
+
+=over 4
+
+=item *
+
+C<installed into: /home/yuta/perl5/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2.33>
+
+=item *
+
+C<EXE_FILES: bin/json_xs>
+
+=back
+
