@@ -196,3 +196,157 @@ C<EXE_FILES: bin/json_xs>
 
 =back
 
+=head2 Mon Aug 13 03:55:47 2012: C<Module> L<File::Slurp|File::Slurp>
+
+=over 4
+
+=item *
+
+C<installed into: /home/yuta/perl5/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 9999.19>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Mon Aug 13 03:56:18 2012: C<Module> L<Test::Requires|Test::Requires>
+
+=over 4
+
+=item *
+
+C<installed into: /home/yuta/perl5/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.06>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Mon Aug 13 03:56:20 2012: C<Module> L<parent|parent>
+
+=over 4
+
+=item *
+
+C<installed into: /home/yuta/perl5/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.225>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Mon Aug 13 03:58:12 2012: C<Module> L<Mouse|Mouse>
+
+=over 4
+
+=item *
+
+C<installed into: /home/yuta/perl5/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.99>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Mon Aug 13 04:03:10 2012: C<Module> L<Any::Moose|Any::Moose>
+
+=over 4
+
+=item *
+
+C<installed into: /home/yuta/perl5/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.18>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Mon Aug 13 04:03:15 2012: C<Module> L<Data::MessagePack|Data::MessagePack>
+
+=over 4
+
+=item *
+
+C<installed into: /home/yuta/perl5/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.46>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Mon Aug 13 04:04:06 2012: C<Module> L<Text::Xslate|Text::Xslate>
+
+=over 4
+
+=item *
+
+C<installed into: /home/yuta/perl5/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.5017>
+
+=item *
+
+C<EXE_FILES: script/xslate>
+
+=back
+

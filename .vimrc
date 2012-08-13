@@ -10,3 +10,5 @@ set smarttab
 set shiftround
 set nowrap
 set shiftwidth=4
+
+map <F5> :!perl -MFindBin::libs<CR>
