@@ -1,0 +1,6 @@
+[color] 
+    ui = true
+[grep]
+    lineNumber = true
+[alias] 
+    g = grep -H --heading --break
