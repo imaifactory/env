@@ -1,3 +1,5 @@
+cd ~/
+
 cp -f .vimrc ~/.vimrc
 echo "Installed ~/.vimrc"
 
@@ -16,6 +18,9 @@ echo "Created ~/.vim"
 
 git clone https://github.com/Shougo/neocomplcache.git ~/.vim
 echo "Installed neocomplcache"
+
+git clone https://github.com/ggreer/the_silver_searcher
+cd the_silver_searcher && ./build.sh && install
 
 rm -fr ~/aws
 cp -fR aws ~/aws
