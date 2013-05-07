@@ -20,7 +20,7 @@ git clone https://github.com/Shougo/neocomplcache.git ~/.vim
 echo "Installed neocomplcache"
 
 rm -fr ~/aws
-cp -fR aws ~/aws
+cp -fR ~/homedirectory/aws ~/aws
 echo "Installed aws tools"
 
 source ~/.bashrc
