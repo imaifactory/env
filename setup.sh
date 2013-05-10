@@ -18,6 +18,5 @@ git clone https://github.com/Shougo/neocomplcache.git ~/.vim
 echo "Installed neocomplcache"
 
 rm -fr ~/aws
-cp -fR aws ~/aws
-export PATH=$PATH:~/aws/s3cmd
+cp -fR ~/homedirectory/aws ~/aws
 echo "Installed aws tools"
