@@ -1,6 +1,13 @@
 HOME=~
 WORK=$HOME/homedirectory
 
+# git install
+sudo yum install git -y
+git config --global user.name "imai-factory"
+git config --global user.email imai.factory@gmail.com
+echo "Installed and configured git"
+
+
 rm $HOME/.vimrc
 cp -f $WORK/.vimrc $HOME/.vimrc
 echo "Installed ~/.vimrc"
