@@ -6,7 +6,7 @@ if [ -f /etc/bashrc ]; then
 fi
 
 # User specific aliases and functions
-PATH=$PATH:~/aws/emrclient:~/aws/bin:~/aws/s3cmd
+PATH=$PATH:~/aws/emrclient:~/aws/bin:~/aws/s3cmd:~/bin:~/perl5/bin
 
 #setup aws environment
 #export AWS_ACCESS_KEY_ID=`perl ~/aws/bin/fetch_iam_data.pl AccessKeyId`

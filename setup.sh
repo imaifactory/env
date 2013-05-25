@@ -1,33 +1,46 @@
-cd ~/
+HOME=~
+WORK=$HOME/homedirectory
 
-cp -f .vimrc ~/.vimrc
+rm $HOME/.vimrc
+cp -f $WORK/.vimrc $HOME/.vimrc
 echo "Installed ~/.vimrc"
 
-cp -f .screenrc ~/.screenrc
+rm $HOME/.screenrc
+cp -f $WORK/.screenrc $HOME/.screenrc
 echo "Installed ~/.screenrc"
 
-cp -f .bashrc ~/.bashrc
+rm $HOME/.bashrc
+cp -f $WORK/.bashrc $HOME/.bashrc
 echo "Installed ~/.bashrc"
 
-cp -f .gitconfig ~/.gitconfig
+rm $HOME/.gitconfig
+cp -f $WORK/.gitconfig $HOME/.gitconfig
 echo "Installed ~/.gitconfig"
 
-rm -fr ~/.vim
-mkdir ~/.vim
+rm -fr $HOME/.vim
+mkdir $HOME/.vim
 echo "Created ~/.vim"
 
-git clone https://github.com/Shougo/neocomplcache.git ~/.vim
+git clone https://github.com/Shougo/neocomplcache.git $HOME/.vim
 echo "Installed neocomplcache"
 
 # prepare aws tools
-cd homedirectory
+cd $HOME/homedirectory
 wget http://elasticmapreduce.s3.amazonaws.com/elastic-mapreduce-ruby.zip
-unzip -d aws/emrclient elastic-mapreduce-ruby.zip
+rm -fr $HOME/aws
+mkdir $HOME/aws
+unzip -d $HOME/aws/emrclient elastic-mapreduce-ruby.zip
 rm elastic-mapreduce-ruby.zip
-cd ~/
-
-rm -fr ~/aws
-cp -fR ~/homedirectory/aws ~/aws
 echo "Installed aws tools"
 
-source ~/.bashrc
+# local bin
+cd $HOME
+rm -fr bin
+mkdir bin
+
+# install cpanm
+cd $HOME/bin
+curl -LOk http://xrl.us/cpanm
+chmod u+x cpanm
+
+source $HOME/.bashrc
