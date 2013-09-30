@@ -28,8 +28,16 @@ rm -fr $HOME/.vim
 mkdir $HOME/.vim
 echo "Created ~/.vim"
 
-git clone https://github.com/Shougo/neocomplcache.git $HOME/.vim
-echo "Installed neocomplcache"
+git clone https://github.com/tpope/vim-pathogen.git $HOME/.vim
+mkdir $HOME/.vim/bundle
+echo "Installed vim-pathogen"
+
+cd $HOME/.vim/bundle
+git clone https://github.com/Shougo/neocomplcache.git
+git clone https://github.com/jimenezrick/vimerl.git
+git clone https://github.com/altercation/vim-colors-solarized.git
+git clone https://github.com/Shougo/neosnippet.vim.git
+git clone https://github.com/itchyny/lightline.vim.git
 
 # prepare aws tools
 cd $HOME/homedirectory

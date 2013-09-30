@@ -19,3 +19,5 @@ inoremap <expr><CR>  neocomplcache#smart_close_popup() . "\<CR>"
 inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
 
 map <F5> :!perl -MFindBin::libs<CR>
+
+execute pathogen#infect()
