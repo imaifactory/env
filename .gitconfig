@@ -4,3 +4,6 @@
     lineNumber = true
 [alias] 
     g = grep -H --heading --break
+[user]
+	name = Yuta Imai
+	email = imai.factory@gmail.com
