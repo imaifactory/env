@@ -53,6 +53,7 @@ cd $HOME
 rm -fr bin
 mkdir bin
 
+sudo yum install -y gcc openssl openssl-devel zlib zlib-devel perl-devel
 # install cpanm
 cd $HOME/bin
 curl -LOk http://xrl.us/cpanm
