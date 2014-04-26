@@ -3,10 +3,9 @@ WORK=$HOME/homedirectory
 
 # git install
 sudo yum install git -y
-git config --global user.name "imai-factory"
+git config --global user.name "Yuta Imai"
 git config --global user.email imai.factory@gmail.com
 echo "Installed and configured git"
-
 
 rm $HOME/.vimrc
 cp -f $WORK/.vimrc $HOME/.vimrc
@@ -40,21 +39,13 @@ git clone https://github.com/Shougo/neosnippet.vim.git
 git clone https://github.com/itchyny/lightline.vim.git
 
 # prepare aws tools
-cd $HOME/homedirectory
-wget http://elasticmapreduce.s3.amazonaws.com/elastic-mapreduce-ruby.zip
-rm -fr $HOME/aws
-mkdir $HOME/aws
-unzip -d $HOME/aws/emrclient elastic-mapreduce-ruby.zip
-rm elastic-mapreduce-ruby.zip
-echo "Installed aws tools"
+curl https://raw.github.com/yyuu/pyenv-installer/master/bin/pyenv-installer | bash
+pyenv update
+pyenv install 2.7.6
+pip install awscli
 
-# local bin
-cd $HOME
-rm -fr bin
-mkdir bin
-
-sudo yum install -y gcc openssl openssl-devel zlib zlib-devel perl-devel
 # install cpanm
+sudo yum install -y gcc openssl openssl-devel zlib zlib-devel perl-devel
 cd $HOME/bin
 curl -LOk http://xrl.us/cpanm
 chmod u+x cpanm
