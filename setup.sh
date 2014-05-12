@@ -3,9 +3,7 @@ WORK=$HOME/homedirectory
 
 # git install
 sudo yum install git -y
-git config --global user.name "Yuta Imai"
-git config --global user.email imai.factory@gmail.com
-echo "Installed and configured git"
+echo "Installed git"
 
 rm $HOME/.vimrc
 cp -f $WORK/.vimrc $HOME/.vimrc
