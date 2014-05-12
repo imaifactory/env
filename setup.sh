@@ -1,5 +1,5 @@
 HOME=~
-WORK=$HOME/homedirectory
+WORK=$HOME/$1
 
 # git install
 sudo yum install git -y
