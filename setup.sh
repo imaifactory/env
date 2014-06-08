@@ -3,7 +3,8 @@ WORK=$HOME/$1
 BIN=$HOME/bin
 
 rm -fr $BIN
-mkdir $BIN
+cp -fR $WORK/bin $HOME/bin
+echo "Installed local bin directory"
 
 # git install
 sudo yum install git -y
