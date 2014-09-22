@@ -16,7 +16,6 @@ set tw=0
 set ignorecase
 
 set background=dark
-colorscheme solarized
 
 " neocomplcache
 " Disable AutoComplPop.
