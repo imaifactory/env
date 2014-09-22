@@ -6,10 +6,6 @@ rm -fr $BIN
 cp -fR $WORK/bin $HOME/bin
 echo "Installed local bin directory"
 
-# git install
-sudo yum install git -y
-echo "Installed git"
-
 rm $HOME/.vimrc
 cp -f $WORK/vimrc $HOME/.vimrc
 echo "Installed ~/.vimrc"
@@ -40,12 +36,6 @@ git clone https://github.com/jimenezrick/vimerl.git
 git clone https://github.com/Shougo/neosnippet.vim.git
 git clone https://github.com/itchyny/lightline.vim.git
 git clone https://github.com/altercation/vim-colors-solarized.git
-
-# install cpanm
-sudo yum install -y gcc openssl openssl-devel zlib zlib-devel perl-devel
-cd $BIN
-curl -LOk http://xrl.us/cpanm
-chmod u+x cpanm
 
 # set path
 source $HOME/.bashrc
