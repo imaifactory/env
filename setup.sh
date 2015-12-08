@@ -32,10 +32,7 @@ echo "Installed vim-pathogen"
 
 cd $HOME/.vim/bundle
 git clone https://github.com/Shougo/neocomplcache.git
-git clone https://github.com/jimenezrick/vimerl.git
 git clone https://github.com/Shougo/neosnippet.vim.git
-git clone https://github.com/itchyny/lightline.vim.git
-git clone https://github.com/altercation/vim-colors-solarized.git
 
 # set path
 source $HOME/.bashrc
