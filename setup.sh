@@ -1,5 +1,5 @@
 HOME=~
-WORK=$HOME/$1
+WORK=$HOME/env
 BIN=$HOME/bin
 
 rm -fr $BIN
