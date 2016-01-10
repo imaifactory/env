@@ -1,10 +1,5 @@
 HOME=~
 WORK=$HOME/env
-BIN=$HOME/bin
-
-rm -fr $BIN
-cp -fR $WORK/bin $HOME/bin
-echo "Installed local bin directory"
 
 rm $HOME/.vimrc
 cp -f $WORK/vimrc $HOME/.vimrc
