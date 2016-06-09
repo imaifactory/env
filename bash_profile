@@ -10,3 +10,5 @@ fi
 PATH=$PATH:$HOME/bin
 
 export PATH
+
+alias list-ec2="aws ec2 describe-instances | jq -r '.Reservations[].Instances[] | [.Tags[].Value, .PublicDnsName,.PrivateDnsName] | @tsv'"
