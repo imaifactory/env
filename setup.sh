@@ -29,6 +29,7 @@ cd $HOME/.vim/bundle
 git clone https://github.com/Shougo/neocomplcache.git
 git clone https://github.com/Shougo/neosnippet.vim.git
 git clone https://github.com/Shougo/neosnippet-snippets.git
+git clone https://github.com/kchmck/vim-coffee-script.git
 
 # set path
 source $HOME/.bashrc
